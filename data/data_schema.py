@@ -1,0 +1,5 @@
+AMOUNT = "amount"
+CATEGORY = "category"
+DATE = "date"
+MONTH = "month"
+YEAR = "year"

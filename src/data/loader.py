@@ -1,12 +1,7 @@
 import pandas as pd
 
+import data.data_schema as DataSchema
 
-class DataSchema:
-    AMOUNT = "amount"
-    CATEGORY = "category"
-    DATE = "date"
-    MONTH = "month"
-    YEAR = "year"
 
 def load_transaction_data(path: str) -> pd.DataFrame:
     # load the data from source
